@@ -1,0 +1,129 @@
+.title-wrapper header .logo:hover {
+  transform: scale(130%);
+  transition: transform 0.5s;
+}
+.title-wrapper header .logo:not(:hover) {
+  transform: scale(100%);
+  transition: transform 0.5s;
+}
+.title-wrapper header .navbar a:hover {
+  transform: scale(130%);
+  transition: 0.5s;
+}
+.title-wrapper header .navbar a:not(:hover) {
+  transform: scale(100%);
+  transition: transform 0.5s;
+}
+.title-wrapper header .login:hover {
+  transform: scale(115%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.title-wrapper header .login:active {
+  filter: brightness(80%);
+}
+.title-wrapper header .login:not(:hover) {
+  transform: scale(100%);
+  transition: transform 0.5s;
+}
+.title-wrapper footer .buy-course button:hover {
+  transform: scale(115%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.title-wrapper footer .buy-course button:not(:hover) {
+  transform: scale(100%);
+  transition: transform 0.5s;
+}
+.title-wrapper footer .buy-course button:active {
+  filter: brightness(80%);
+}
+
+.about-us button:hover {
+  transform: scale(115%);
+  transition: transform 1s;
+  cursor: pointer;
+}
+.about-us button:active {
+  filter: brightness(80%);
+}
+.about-us button:not(:hover) {
+  transition: transform 1s;
+}
+
+.fast-start .container img:hover {
+  transition: transform 1s;
+  transform: scale(105%);
+}
+.fast-start .container img:not(:hover) {
+  transition: transform 1s;
+  transform: scale(100%);
+}
+
+.get-job-now .container-left:hover {
+  transition: transform 1s;
+  transform: scale(110%);
+}
+.get-job-now .container-middle:hover {
+  transition: transform 1s;
+  transform: scale(110%);
+}
+.get-job-now .container-right:hover {
+  transition: transform 1s;
+  transform: scale(110%);
+}
+.get-job-now .container-right, .get-job-now .container-middle, .get-job-now .container-left:not(:active) {
+  transition: transform 1s;
+}
+
+.partners .container-partners img:hover {
+  transition: transform 1s;
+  transform: scale(110%);
+}
+.partners .container-partners img:not(:hover) {
+  transition: transform 1s;
+}
+
+.our-trainers .container-trainers div {
+  filter: brightness(70%);
+}
+.our-trainers .container-trainers div:hover {
+  transition: transform 1s;
+  transform: scale(110%);
+  filter: brightness(100%);
+}
+.our-trainers .container-trainers div:not(:hover) {
+  transition: transform 1s;
+}
+.our-trainers .container-trainers p:hover {
+  cursor: pointer;
+}
+
+.footer .email {
+  width: 600px;
+  margin: 0 auto;
+}
+.footer .email .input-submit {
+  cursor: pointer;
+}
+.footer .email:hover {
+  transition: transform 1s;
+  transform: scale(110%);
+}
+.footer .email:not(:hover) {
+  transition: transform 1s;
+}
+.footer .social-media img {
+  filter: brightness(70%);
+}
+.footer .social-media img:hover {
+  transition: transform 1s;
+  transform: scale(110%);
+  filter: brightness(100%);
+  cursor: pointer;
+}
+.footer .social-media img:not(:hover) {
+  transition: transform 1s;
+}
+
+/*# sourceMappingURL=hovers.css.map */
